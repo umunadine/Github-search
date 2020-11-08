@@ -17,12 +17,12 @@ export class ProfileComponent implements OnInit {
     this.ProfileService.getProfileInfo().subscribe(profile =>{
       console.log(profile);
       this.profile = profile;
-      // this.profile.push();
+      // this.profile;
     })
     this.ProfileService.getProfileRepos().subscribe(repos=>{
       console.log(repos);
       this.repos = repos;
-      // this.repos.push();
+      // this.repos;
     })
   }
 
