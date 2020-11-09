@@ -13,7 +13,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Instruction
 
-You must create a HTTP service that uses a promise to make the requests to the GitHub API.
+Create a website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. 
 
 ## Copyright
 MIT
